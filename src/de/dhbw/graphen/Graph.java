@@ -30,6 +30,11 @@ public class Graph implements GraphInterface {
     // Muss den zweiten Knoten aus der Nachbarliste des ersten entfernen.
   } 
   
+  /* Nützliche Hilfsfunktionen:
+   * - get(): Sucht Knoten mit Label, liefert ein Knotenobjekt.
+   * - to_string(): Liefert eine für den Menschen lesbare String-Repräsentation des Graphen. Nützlich zur Überprüfung der anderen Funktionen.
+   * - isNachbar() o.Ä., kann auch nützlich sein, um die Korrektheit zu testen.
+   */
 
   // [TODO]
   // ... weitere Funktionen implementieren
