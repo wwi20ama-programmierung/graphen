@@ -51,8 +51,9 @@ public class Graph implements GraphInterface {
   public String toString() {
     String result = "";
     for (Knoten k : knoten) {
-      for (String label : k.getNachbarLabels())
-      result += (k.getLabel() + " -> " + label + "\n");
+      for (String label : k.getNachbarLabels()) {
+        result += (k.getLabel() + " -> " + label + "\n");
+      }
     }
     return result;
   }
