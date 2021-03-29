@@ -1,5 +1,7 @@
 package de.dhbw.graphen;
 
+import java.util.List;
+
 public interface GraphInterface {
   
   // Zugriffsfunktionen
