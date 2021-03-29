@@ -19,12 +19,17 @@ public interface GraphInterface {
   // Funktionen zur Analyse des Graphen
 
   /** Listet die Nachbarn eines Knoten auf. **/
-  //public List<String> nachbarn(String label);
+  public List<String> nachbarn(String label);
+
+  /** Listet die Nachbarn eines Knoten Entfernung n auf.
+   *  Also alle Knoten, die man in genau n Schritten erreichen kann.
+   **/
+  public List<String> nachbarn(String label, int n);
 
   /** Bestimmt die Entfernung zwischen 2 Knoten. **/
-  //  public int entfernung(String label1, String label2);
+  public int entfernung(String label1, String label2);
 
   /** Liefert True, falls es einen Weg von A nach B gibt. **/
-  // public boolean erreichbar(String A, String B);
+  public boolean erreichbar(String A, String B);
 
 }
